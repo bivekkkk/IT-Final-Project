@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Collections | stockX</title>
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .topnav {
+            overflow: hidden;
+            background-color: #e9e9e9;
+          }
+          
+          .topnav a {
+            float: left;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          .topnav a.active {
+            background-color: #4181a0;
+            color: white;
+          }
+          
+          .topnav .search-container {
+            float: right;
+          }
+          
+          .topnav input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+          }
+          
+          .topnav .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+          }
+          
+          .topnav .search-container button:hover {
+            background: #ccc;
+          }
+          
+          @media screen and (max-width: 600px) {
+            .topnav .search-container {
+              float: none;
+            }
+            .topnav a, .topnav input[type=text], .topnav .search-container button {
+              float: none;
+              display: block;
+              text-align: left;
+              width: 100%;
+              margin: 0;
+              padding: 14px;
+            }
+            .topnav input[type=text] {
+              border: 1px solid #ccc;  
+            }
+          }
+          </style>
+          </head>
+          <body>
+          <img src="logo.png" alt="stockX" width="100" height="30"<br>
+          
+          <div class="topnav">
+            <a  href="index.html">Home</a>
+           <a href="about.html">About</a>
+            <a class="active" href="collections.html">Collections</a>
+            <a href="offers.html">Offers</a>
+            <a href="contact.html">Contact</a>
+            <div class="justify" align="right"
+            <div class="search-container">
+              <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <i class="fa fa-search "></i>
+              </form>
+              </div>
+              <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+  <h4>Most Liked</h4>
+
+
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="nike.png" alt="nike" style="width:95%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="fragment.png" alt="fragment" style="width:95%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="highs.png" alt="highs" style="width:95%" onclick="myFunction(this);">
+  </div>
+  <div class="column">
+    <img src="dior.png" alt="dior" style="width:95%" onclick="myFunction(this);">
+  </div>
+</div>
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+            </div>
+            </div>
+
+            <h4>Most Demand</h4>
+
+            <img src="demand.png" style="width:95%"
+            <br>
+            <br>
+            
+            <img src="demanded.png" style="width:95%"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+            <footer>
+  
+            <div class="justify" align="center"
+              <h4>Store</h4>
+              <p><i class="fa fa-fw fa-map-marker"></i> StockX</p>
+              <p><i class="fa fa-fw fa-phone"></i> +19788654367</p>
+              <p><i class="fa fa-fw fa-envelope"></i> stockX@mail.com</p>  
+                    <h4>We accept</h4>
+                    <p><i class="fa fa-fw fa-cc-amex"></i> Amex</p>
+                    <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                    <br>
+                    <i class="fa fa-facebook-official hover-opacity large"></i>
+                    <i class="fa fa-instagram hover-opacity large"></i>
+                    <i class="fa fa-snapchat hover-opacity large"></i>
+                    <i class="fa fa-pinterest-p hover-opacity large"></i>
+                    <i class="fa fa-twitter hover-opacity large"></i>
+                    <i class="fa fa-linkedin hover-opacity large"></i>/stockX
+                  </div>
+                </div>
+                
+              </footer>   
+                        
+                    
+            </body>
+            </html>
